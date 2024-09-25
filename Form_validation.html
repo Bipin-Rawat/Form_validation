@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="inner_div">
+             <h1 id="main_head">Registration form</h1>
+             <form action="#" id="Registration_form" onsubmit="validateForm(event)"> 
+                <div class="input_data">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Name">
+                    <label for="Email">Email:</label>
+                    <input type="text" id="email" placeholder="Email">
+                    <label for="Password">Password:</label>
+                    <input type="password" id="password" placeholder="Password"> 
+                    <label for="Confirm_passowrd">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                </div>
+            <input id="button" type="submit" value="submit">                
+            </form>
+            <div id="error_msge"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
